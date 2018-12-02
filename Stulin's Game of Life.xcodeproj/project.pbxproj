@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D5835A1F214F0578002DC950 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5835A1E214F0578002DC950 /* main.swift */; };
+		D5835A26214F2DE6002DC950 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5835A25214F2DE6002DC950 /* Cell.swift */; };
+		D5835A28214F2EA9002DC950 /* Colony.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5835A27214F2EA9002DC950 /* Colony.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		D5835A1B214F0578002DC950 /* Stulin's Game of Life */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stulin's Game of Life"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5835A1E214F0578002DC950 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D5835A25214F2DE6002DC950 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		D5835A27214F2EA9002DC950 /* Colony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colony.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				D5835A1E214F0578002DC950 /* main.swift */,
+				D5835A25214F2DE6002DC950 /* Cell.swift */,
+				D5835A27214F2EA9002DC950 /* Colony.swift */,
 			);
 			path = "Stulin's Game of Life";
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5835A1F214F0578002DC950 /* main.swift in Sources */,
+				D5835A26214F2DE6002DC950 /* Cell.swift in Sources */,
+				D5835A28214F2EA9002DC950 /* Colony.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
